@@ -34,7 +34,7 @@ const Book = ({ book }: { book: IBook }) => {
             color: "#666",
           }}
         >
-          {dayjs(book.createdAt).format("DD MMM YYYY")}
+          {dayjs(book.publicationDate).format("DD MMM YYYY")}
         </Text>
       </Box>
     </>
